@@ -14,13 +14,13 @@
 * [Selection Sort](searching-and-sorting/selection-sort.md)
 * [Merge Sort](searching-and-sorting/merge-sort.md)
 
-## Greedy Method
+## 💸 Greedy Method
 
 * [Introduction](greedy-method/introduction.md)
 * [Activity Selection](greedy-method/activity-selection.md)
 * [Graph Colouring](greedy-method/graph-colouring.md)
 
-## Divide and Conquer
+## ⚔ Divide and Conquer
 
 * [Introduction](divide-and-conquer/introduction.md)
 
@@ -28,11 +28,11 @@
 
 * [Page 3](backtracking/page-3.md)
 
-## Dynamic Programming
+## 💣 Dynamic Programming
 
 * [Page 4](dynamic-programming/page-4.md)
 
-## Graph
+## 📈 Graph
 
 * [Introduction](graph/introduction.md)
 * [DFS](graph/dfs/README.md)
@@ -41,6 +41,6 @@
 * [Flood Fill Algorithm](graph/flood-fill-algorithm/README.md)
   * [Minesweeper Lite](graph/flood-fill-algorithm/minesweeper-lite.md)
 
-## Number Theory
+## 🔢 Number Theory
 
 * [Introduction](number-theory/introduction.md)
