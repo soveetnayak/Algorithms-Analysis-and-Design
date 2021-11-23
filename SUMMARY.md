@@ -23,10 +23,16 @@
 ## ⚔ Divide and Conquer
 
 * [Introduction](divide-and-conquer/introduction.md)
+* [Page 1](divide-and-conquer/page-1.md)
+* [Page 2](divide-and-conquer/page-2.md)
 
 ## Backtracking
 
-* [Page 3](backtracking/page-3.md)
+* [Introduction](backtracking/introduction.md)
+* [Hamiltonian Path/Cycle Problem](backtracking/hamiltonian-path-cycle-problem.md)
+* [N Queen Problem](backtracking/n-queen-problem.md)
+* [Rat in a Maze](backtracking/rat-in-a-maze.md)
+* [Knight's Tour Problem](backtracking/knights-tour-problem.md)
 
 ## 💣 Dynamic Programming
 
