@@ -6,7 +6,7 @@ The Brute force approach tries out all the possible solutions and chooses the de
 
 The term backtracking suggests that if the current solution is not suitable, then backtrack and try other solutions. Thus, recursion is used in this approach.
 
-This approach is used to solve problems that have multiple solutions. If you want an optimal solution, you must go for [dynamic programming](https://www.programiz.com/dsa/dynamic-programming).
+This approach is used to solve problems that have multiple solutions. If you want an optimal solution, you must go for dynamic programming. &#x20;
 
 ***
 
@@ -41,7 +41,7 @@ All the possibilities are:
 
 ![All the possibilities](https://cdn.programiz.com/sites/tutorial2program/files/ba-possibilities.png)All the possibilities
 
-The following [state space tre](http://none)e shows the possible solutions.
+The following state space tree shows the possible solutions.
 
 ![State state tree](https://cdn.programiz.com/sites/tutorial2program/files/ba-state-state-tree-example.png)State tree with all the solutions
 

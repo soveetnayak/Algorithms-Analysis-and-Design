@@ -22,17 +22,13 @@ Follow this handy guide to get started on the basics as quickly as possible:
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="searching-and-sorting/linear-search.md" %}
-[linear-search.md](searching-and-sorting/linear-search.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="searching-and-sorting/introduction.md" %}
-[introduction.md](searching-and-sorting/introduction.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
-
-### Fundamentals: Dive a little deeper
-
-Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)

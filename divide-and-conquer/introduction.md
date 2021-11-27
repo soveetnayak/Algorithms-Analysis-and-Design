@@ -8,14 +8,6 @@ A **divide and conquer algorithm** is a strategy of solving a large problem by
 2. solving the sub-problems, and
 3. combining them to get the desired output.
 
-To use the divide and conquer algorithm, **recursion** is used. Learn about recursion in different programming languages:
-
-* [Recursion in Java](https://www.programiz.com/java-programming/recursion)
-* [Recursion in Python](https://www.programiz.com/python-programming/recursion)
-* [Recursion in C++](https://www.programiz.com/cpp-programming/recursion)
-
-***
-
 ### How Divide and Conquer Algorithms Work?
 
 Here are the steps involved:
@@ -26,7 +18,7 @@ Here are the steps involved:
 
 Let us understand this concept with the help of an example.
 
-Here, we will sort an array using the divide and conquer approach (ie. [merge sort](https://www.programiz.com/dsa/merge-sort)).
+Here, we will sort an array using the divide and conquer approach (ie. merge sort).
 
 1. Let the given array be:![initial array for merge sort](https://cdn.programiz.com/sites/tutorial2program/files/divide-and-conquer-0.png)Array for merge sort
 2. **Divide** the array into two halves.![Divide the array into two subparts](https://cdn.programiz.com/sites/tutorial2program/files/divide-and-conquer-1.png)Divide the array into two subparts\
@@ -37,7 +29,7 @@ Here, we will sort an array using the divide and conquer approach (ie. [merge so
 
 ### Time Complexity <a href="complexity" id="complexity"></a>
 
-The complexity of the divide and conquer algorithm is calculated using the [master theorem](https://www.programiz.com/dsa/master-theorem).
+The complexity of the divide and conquer algorithm is calculated using the master theorem.&#x20;
 
 ```
 T(n) = aT(n/b) + f(n),

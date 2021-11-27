@@ -4,7 +4,7 @@
 
 ## 🚢 Searching and Sorting
 
-* [Introduction](searching-and-sorting/introduction.md)
+* [Introduction-Search](searching-and-sorting/introduction-search.md)
 * [Linear Search](searching-and-sorting/linear-search.md)
 * [Binary Search](searching-and-sorting/binary-search.md)
 * [Interpolation Search](searching-and-sorting/interpolation-search.md)
@@ -23,10 +23,10 @@
 ## ⚔ Divide and Conquer
 
 * [Introduction](divide-and-conquer/introduction.md)
-* [Page 1](divide-and-conquer/page-1.md)
-* [Page 2](divide-and-conquer/page-2.md)
+* [Strassen's Matrix multiplication](divide-and-conquer/strassens-matrix-multiplication.md)
+* [Karatsuba algorithm](divide-and-conquer/karatsuba-algorithm.md)
 
-## Backtracking
+## 🚠 Backtracking
 
 * [Introduction](backtracking/introduction.md)
 * [Hamiltonian Path/Cycle Problem](backtracking/hamiltonian-path-cycle-problem.md)
@@ -36,7 +36,9 @@
 
 ## 💣 Dynamic Programming
 
-* [Page 4](dynamic-programming/page-4.md)
+* [Introduction](dynamic-programming/introduction.md)
+* [Longest Common Subsequence](dynamic-programming/longest-common-subsequence.md)
+* [Floyd-Warshall Algorithm](dynamic-programming/floyd-warshall-algorithm.md)
 
 ## 📈 Graph
 
@@ -50,3 +52,8 @@
 ## 🔢 Number Theory
 
 * [Introduction](number-theory/introduction.md)
+* [Page 4](number-theory/page-4.md)
+* [Page 5](number-theory/page-5.md)
+* [Page 3](number-theory/page-3.md)
+* [Page 1](number-theory/page-1.md)
+* [Page 2](number-theory/page-2.md)
