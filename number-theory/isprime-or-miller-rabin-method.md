@@ -1,22 +1,20 @@
-# Page 2
+# IsPrime | Miller-Rabin Method
 
 
 
 Given a number n, check if it is prime or not. We have introduced and discussed School and Fermat methods for primality testing.\
-[Primality Test | Set 1 (Introduction and School Method)](https://www.geeksforgeeks.org/primality-test-set-1-introduction-and-school-method/) \
-[Primality Test | Set 2 (Fermat Method)](https://www.geeksforgeeks.org/primality-test-set-2-fermet-method/)\
-In this post, the Miller-Rabin method is discussed. This method is a probabilistic method ( like Fermat), but it is generally preferred over Fermat’s method.
+\
+In this page, the Miller-Rabin method is discussed.&#x20;
+
+This method is a probabilistic method (like Fermat), but it is generally preferred over Fermat’s method.
 
 **Algorithm:**
-
-Attention reader! Don’t stop learning now. Get hold of all the important DSA concepts with the [**DSA Self Paced Course**](https://practice.geeksforgeeks.org/courses/dsa-self-paced) at a student-friendly price and become industry ready.  To complete your preparation from learning a language to DS Algo and many more,  please refer [**Complete Interview Preparation Course**](https://practice.geeksforgeeks.org/courses/complete-interview-preparation)**.**
-
-In case you wish to attend **live classes **with experts, please refer [**DSA Live Classes for Working Professionals **](https://practice.geeksforgeeks.org/courses/geeks-classes-live)and [**Competitive Programming Live for Students**](https://practice.geeksforgeeks.org/courses/competitive-programming-live).
 
 ```
 // It returns false if n is composite and returns true if n
 // is probably prime.  k is an input parameter that determines
 // accuracy level. Higher value of k indicates more accuracy.
+
 bool isPrime(int n, int k)
 1) Handle base cases for n < 3
 2) If n is even, return false.
@@ -44,10 +42,7 @@ bool millerTest(int n, int d)
      c) If (x == n-1) return true. 
 ```
 
-**Example:**&#x20;
-
-\
-\
+**Example:** \
 
 
 ```

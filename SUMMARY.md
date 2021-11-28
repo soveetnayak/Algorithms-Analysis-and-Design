@@ -18,6 +18,7 @@
 
 * [Introduction](greedy-method/introduction.md)
 * [Activity Selection](greedy-method/activity-selection.md)
+* [Fractional Knapsack Problem](greedy-method/fractional-knapsack-problem.md)
 * [Graph Colouring](greedy-method/graph-colouring.md)
 
 ## ⚔ Divide and Conquer
@@ -43,17 +44,17 @@
 ## 📈 Graph
 
 * [Introduction](graph/introduction.md)
-* [DFS](graph/dfs/README.md)
-  * [Problem](graph/dfs/problem.md)
+* [DFS](graph/dfs.md)
+* [Dictionary Game](graph/dictionary-game.md)
 * [BFS](graph/bfs.md)
-* [Flood Fill Algorithm](graph/flood-fill-algorithm/README.md)
-  * [Minesweeper Lite](graph/flood-fill-algorithm/minesweeper-lite.md)
+* [Flood Fill Algorithm](graph/flood-fill-algorithm.md)
+* [Minesweeper Lite](graph/minesweeper-lite.md)
 
 ## 🔢 Number Theory
 
 * [Introduction](number-theory/introduction.md)
-* [Page 4](number-theory/page-4.md)
-* [Page 5](number-theory/page-5.md)
-* [Page 3](number-theory/page-3.md)
-* [Page 1](number-theory/page-1.md)
-* [Page 2](number-theory/page-2.md)
+* [GCD](number-theory/gcd.md)
+* [Factorial](number-theory/factorial.md)
+* [IsPrime | School Method](number-theory/isprime-or-school-method.md)
+* [IsPrime | Fermat's Little Theorem](number-theory/isprime-or-fermats-little-theorem.md)
+* [IsPrime | Miller-Rabin Method](number-theory/isprime-or-miller-rabin-method.md)
