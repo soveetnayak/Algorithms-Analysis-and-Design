@@ -9,9 +9,9 @@ Linear Search Algorithm is the simplest search algorithm. In this search algorit
 ```
 LinearSearch ( Array A, Value x)
 
-Step 1: Set i to 1
+Step 1: Set i to 0
 
-Step 2: if i > n then go to step 7
+Step 2: if i >= n then go to step 7
 
 Step 3: if A[i] = x then go to step 6
 
@@ -29,14 +29,14 @@ Step 8: Exit
 **Linear Search Example**
 
 {% hint style="warning" %}
-Let us take an example of an array A\[7]={5,2,1,6,3,7,8}. Array A has 7 items. Let us assume we are looking for 7 in the array. Targeted item=7.
+Let us take an example of an array A\[7]={5,2,1,6,3,7,8}.&#x20;
+
+Array A has 7 items. Let us assume we are looking for 7 in the array. Targeted item=7.
 {% endhint %}
 
 
 
-Here, we have
-
-A\[7]={5,2,1,6,3,7,8}
+Here, we have A\[7]={5,2,1,6,3,7,8}
 
 X=7
 
@@ -68,13 +68,12 @@ int linearSearch(int values[], int target, int n)
     }
     return -1;
 }
-
 ```
 
 
 
 {% hint style="warning" %}
-You are given $$N$$N $$(3≤N≤5000)$$(3≤N≤5000) integer points on the coordinate plane. Find the square of the maximum Euclidean distance (aka length of the straight line) between any two of the points.
+You are given N (3≤N≤5000) integer points on the coordinate plane. Find the square of the maximum Euclidean distance (aka length of the straight line) between any two of the points.
 {% endhint %}
 
 We can iterate through every pair of points and find the square of the distance between them, by squaring the formula for Euclidean distance:
@@ -85,4 +84,6 @@ $$
 
 Maintain the current maximum square distance in `max_square`.
 
-* Since we're iterating through all pairs of points, we start the j loop from $$j=i+1$$ so that point i  and point j are never the same point. Furthermore, it makes it so that each pair is only counted once. In this problem, it doesn't matter whether we double-count pairs or whether we allow i and j to be the same point, but in other problems where we're counting something rather than looking at the maximum, it's important to be careful that we don't overcount.
+Since we're iterating through all pairs of points, we start the j loop from $$j=i+1$$ so that point i  and point j are never the same point.&#x20;
+
+Furthermore, it makes it so that each pair is only counted once. In this problem, it doesn't matter whether we double-count pairs or whether we allow i and j to be the same point, but in other problems where we're counting something rather than looking at the maximum, it's important to be careful that we don't overcount.

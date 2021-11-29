@@ -8,11 +8,9 @@
 * [Linear Search](searching-and-sorting/linear-search.md)
 * [Binary Search](searching-and-sorting/binary-search.md)
 * [Interpolation Search](searching-and-sorting/interpolation-search.md)
-* [Hashing](searching-and-sorting/hashing.md)
 * [Introduction-Sorting](searching-and-sorting/introduction-sorting.md)
 * [Bubble Sort](searching-and-sorting/bubble-sort.md)
 * [Selection Sort](searching-and-sorting/selection-sort.md)
-* [Merge Sort](searching-and-sorting/merge-sort.md)
 
 ## 💸 Greedy Method
 
@@ -20,12 +18,6 @@
 * [Activity Selection](greedy-method/activity-selection.md)
 * [Fractional Knapsack Problem](greedy-method/fractional-knapsack-problem.md)
 * [Graph Colouring](greedy-method/graph-colouring.md)
-
-## ⚔ Divide and Conquer
-
-* [Introduction](divide-and-conquer/introduction.md)
-* [Strassen's Matrix multiplication](divide-and-conquer/strassens-matrix-multiplication.md)
-* [Karatsuba algorithm](divide-and-conquer/karatsuba-algorithm.md)
 
 ## 🚠 Backtracking
 
@@ -35,11 +27,11 @@
 * [Rat in a Maze](backtracking/rat-in-a-maze.md)
 * [Knight's Tour Problem](backtracking/knights-tour-problem.md)
 
-## 💣 Dynamic Programming
+## ⚔ Divide and Conquer
 
-* [Introduction](dynamic-programming/introduction.md)
-* [Longest Common Subsequence](dynamic-programming/longest-common-subsequence.md)
-* [Floyd-Warshall Algorithm](dynamic-programming/floyd-warshall-algorithm.md)
+* [Introduction](divide-and-conquer/introduction.md)
+* [Strassen's Matrix multiplication](divide-and-conquer/strassens-matrix-multiplication.md)
+* [Karatsuba algorithm](divide-and-conquer/karatsuba-algorithm.md)
 
 ## 📈 Graph
 
@@ -49,6 +41,12 @@
 * [BFS](graph/bfs.md)
 * [Flood Fill Algorithm](graph/flood-fill-algorithm.md)
 * [Minesweeper Lite](graph/minesweeper-lite.md)
+
+## 💣 Dynamic Programming
+
+* [Introduction](dynamic-programming/introduction.md)
+* [Longest Common Subsequence](dynamic-programming/longest-common-subsequence.md)
+* [Floyd-Warshall Algorithm](dynamic-programming/floyd-warshall-algorithm.md)
 
 ## 🔢 Number Theory
 

@@ -32,6 +32,6 @@ The solution should convert it into the following matrix:
 
 
 
-We can use the [flood fill algorithm](https://www.techiedelight.com/flood-fill-algorithm/) to solve this problem. The idea is to consider all zeroes present on the matrix’s boundary one by one and start a [Depth–first search (DFS)](https://www.techiedelight.com/depth-first-search/) from them. The DFS procedure replaces all such connected zeroes by value `-1`.
+We can use the flood fill algorithm to solve this problem. The idea is to consider all zeroes present on the matrix’s boundary one by one and start a Depth–first search (DFS) from them. The DFS procedure replaces all such connected zeroes by value `-1`.
 
 After processing all connected zeroes present on the matrix boundary, traverse the matrix again, replace all remaining zeroes with `1` and replace all `-1`

@@ -2,7 +2,9 @@
 
 
 
-Bubble sort is the simplest sorting algorithm. It is based on comparison where each adjacent pair of element is compared and swapped if they are not in order. It works by repeatedly stepping through the list to be sorted, comparing two items at a time and swapping them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which means the list is sorted. This algorithm is not suitable for huge data sets. Average and worst case time complexity of this algorithm are of **Ο(n2) **where n is the number of items.
+Bubble sort is the simplest sorting algorithm. It is based on comparison where each adjacent pair of element is compared and swapped if they are not in order. It works by repeatedly stepping through the list to be sorted, comparing two items at a time and swapping them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which means the list is sorted. T
+
+ime complexity of this algorithm are of **Ο(n^2) **where n is the number of items.
 
 **Algorithm**
 

@@ -1,4 +1,4 @@
-# Page 1
+# Strassen's Matrix multiplication
 
 
 
@@ -10,9 +10,7 @@ Following is a simple way to multiply two matrices. \
 | `void` `multiply(int` `A[][N], int` `B[][N], int` `C[][N]){    for` `(int` `i = 0; i < N; i++)    {        for` `(int` `j = 0; j < N; j++)        {            C[i][j] = 0;            for` `(int` `k = 0; k < N; k++)            {                C[i][j] += A[i][k]*B[k][j];            }        }    }}` |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-Time Complexity of above method is O(N3). \
-&#x20;
-
+Time Complexity of above method is O(N^3). \
 &#x20;
 
 _**Divide and Conquer** _\
@@ -43,7 +41,7 @@ In the above divide and conquer method, the main component for high time complex
 ![stressen\_formula\_new\_new](https://www.geeksforgeeks.org/wp-content/uploads/stressen\_formula\_new\_new.png)
 
 **Time Complexity of Strassen’s Method** \
-Addition and Subtraction of two matrices takes O(N2) time. So time complexity can be written as \
+Addition and Subtraction of two matrices takes O(N^2) time. So time complexity can be written as \
 &#x20;
 
 ```

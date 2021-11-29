@@ -12,7 +12,7 @@ For example,
 &#x20;\
 (1, 4), (5, 7), (8, 11), (12, 14)
 
-> [Practice this problem](https://techiedelight.com/practice/?problem=ActivitySelectionProblem)
+
 
 The activity selection problem is a problem concerning selecting non-conflicting activities to perform within a given time frame, given a set of activities each marked by a start and finish time. A classic application of this problem is scheduling a room for multiple competing events, each having its time requirements (start and end time).
 

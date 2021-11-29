@@ -4,7 +4,7 @@
 
 Selection sort is an in-place comparison sort algorithm. In this algorithm, we repeatedly select the smallest remaining element and move it to the end of a growing sorted list. It is one of the simplest sorting algorithm. Selection sort is known for its simplicity. It has performance advantages over more complicated algorithms in certain situations.
 
-This algorithm is not suitable for large data sets as its average and worst case complexities are of **Ο(n2)**, where n is the number of items.
+Time complexity is **Ο(n^2)**, where n is the number of items.
 
 **Algorithm**
 

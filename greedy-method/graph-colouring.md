@@ -15,7 +15,7 @@ We can color it in many ways by using the minimum of 3 colors.
 Please note that we can’t color the above graph using two colors.
 
 &#x20;\
-Before discussing the [greedy algorithm](https://www.techiedelight.com/greedy-algorithm-problems/) to color graphs, let’s talk about basic graph coloring terminology.
+Before discussing the greedy algorithm to color graphs, let’s talk about basic graph coloring terminology.
 
 K–colorable graph:
 
@@ -27,7 +27,7 @@ The smallest number of colors needed to color a graph `G` is called its chromati
 
 Brooks’ theorem:
 
-[Brooks’ theorem](https://en.wikipedia.org/wiki/Brooks'\_theorem) states that a connected graph can be colored with only `x` colors, where `x` is the maximum degree of any vertex in the graph except for complete graphs and graphs containing an odd length cycle, which requires `x+1` colors.
+Brooks’ theorem states that a connected graph can be colored with only `x` colors, where `x` is the maximum degree of any vertex in the graph except for complete graphs and graphs containing an odd length cycle, which requires `x+1` colors.
 
 &#x20;\
 Greedy coloring _considers the vertices of the graph in sequence and assigns each vertex its first available color_, i.e., vertices are considered in a specific order `v1`, `v2`, … `vn`, and `vi` and assigned the smallest available color which is not used by any of `vi`’s neighbors.
@@ -157,35 +157,3 @@ Applications of graph coloring:
 
 The problem of coloring a graph arises in many practical areas such as pattern matching, designing seating plans, scheduling exam timetable, solving Sudoku puzzles, etc.
 
-&#x20;\
-**References:**
-
-1\. [https://en.wikipedia.org/wiki/Greedy\_coloring](https://en.wikipedia.org/wiki/Greedy\_coloring)
-
-2\. [https://en.wikipedia.org/wiki/Graph\_coloring](https://en.wikipedia.org/wiki/Graph\_coloring)
-
-Rate this post
-
-*
-* &#x20;
-*
-* &#x20;
-*
-* &#x20;
-*
-* &#x20;
-*
-
-Average rating 4.87/5. Vote count: 161
-
-\
-\
-\
-**Thanks for reading.**\
-\
-Please use our [online compiler](https://techiedelight.com/compiler/) to post code in comments using C, C++, Java, Python, JavaScript, C#, PHP, and many more popular programming languages.\
-\
-**Like us? Refer us to your friends and help us grow. Happy coding** 🙂\
-\
-\
-\
