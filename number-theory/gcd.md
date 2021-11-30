@@ -26,7 +26,7 @@ b= 56-42 = 14 & a= 42   . 42 is  3 times of 14  so **HCF** is 14  . likewise  a=
 Finally, return the product of elements in the intersection.
 
 \
-An **efficient solution **is to use Euclidean algorithm which is the main algorithm used for this purpose. The idea is, GCD of two numbers doesn’t change if smaller number is subtracted from a bigger number.&#x20;
+An **efficient solution** is to use Euclidean algorithm which is the main algorithm used for this purpose. The idea is, GCD of two numbers doesn’t change if smaller number is subtracted from a bigger number.&#x20;
 
 ```cpp
 // Recursive function to return gcd of a and b
@@ -50,7 +50,7 @@ cout<<"GCD of "<<a<<" and "<<b<<" is "<<gcd(a, b);
 return 0;}
 ```
 
-**Output: **
+**Output:**&#x20;
 
 ```
 GCD of 98 and 56 is 14

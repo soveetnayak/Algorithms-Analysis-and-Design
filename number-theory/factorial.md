@@ -1,4 +1,4 @@
-# Page 5
+# Factorial
 
 
 
@@ -7,7 +7,7 @@ Factorial of a non-negative integer, is multiplication of all integers smaller t
 
 ![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/program-for-factorial-of-a-number-1024x512.png)
 
-Attention reader! All those who say programming isn't for kids, just haven't met the right mentors yet. Join the [** **](https://practice.geeksforgeeks.org/courses/first-step-to-dsa/)[**Demo Class for First Step to Coding Course**](https://practice.geeksforgeeks.org/courses/first-step-to-coding-demo/)**, **specifically **designed for students of class 8 to 12. **\
+Attention reader! All those who say programming isn't for kids, just haven't met the right mentors yet. Join the [ **** ](https://practice.geeksforgeeks.org/courses/first-step-to-dsa/)[**Demo Class for First Step to Coding Course**](https://practice.geeksforgeeks.org/courses/first-step-to-coding-demo/)**,** specifically **designed for students of class 8 to 12.** \
 
 
 The students will get to learn more about the world of programming in these **free classes** which will definitely help them in making a wise career choice in the future.
@@ -94,7 +94,7 @@ Factorial of 5 is 120
 ```
 
 Time complexity of the above iterative solutions is O(n).\
-**One line Solution (Using Ternary operator): **\
+**One line Solution (Using Ternary operator):** \
 &#x20;
 
 * C++

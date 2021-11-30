@@ -19,7 +19,7 @@ Output: false
 
 &#x20;
 
-**School Method **\
+**School Method** \
 A simple solution is to iterate through all numbers from 2 to n-1 and for every number check if it divides n. If we find any number that divides, we return false. \
 Below is the implementation of this method. \
 &#x20;
@@ -67,5 +67,5 @@ false
 Time complexity of this solution is O(n)\
 
 
-**Optimized School Method **\
+**Optimized School Method** \
 Instead of checking till n, we can check till √n because a larger factor of n must be a multiple of smaller factor that has been already checked.
