@@ -33,6 +33,7 @@
 * [Introduction](divide-and-conquer/introduction.md)
 * [Strassen's Matrix multiplication](divide-and-conquer/strassens-matrix-multiplication.md)
 * [Karatsuba algorithm](divide-and-conquer/karatsuba-algorithm.md)
+* [Closest Pair](divide-and-conquer/closest-pair.md)
 
 ## 📈 Graph
 
@@ -48,6 +49,8 @@
 * [Introduction](dynamic-programming/introduction.md)
 * [Longest Common Subsequence](dynamic-programming/longest-common-subsequence.md)
 * [Floyd-Warshall Algorithm](dynamic-programming/floyd-warshall-algorithm.md)
+* [0-1 Knapsack problem](dynamic-programming/0-1-knapsack-problem.md)
+* [Dice Throw](dynamic-programming/dice-throw.md)
 
 ## 🔢 Number Theory
 
@@ -60,4 +63,4 @@
 
 ***
 
-* [References](references.md)
+* [🌮 References](references.md)
