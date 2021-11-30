@@ -2,7 +2,7 @@
 
 
 
-Selection sort is an in-place comparison sort algorithm. In this algorithm, we repeatedly select the smallest remaining element and move it to the end of a growing sorted list. It is one of the simplest sorting algorithm. Selection sort is known for its simplicity. It has performance advantages over more complicated algorithms in certain situations.
+Selection sort is a sorting method that uses in-place comparisons. We choose the smallest remaining element and move it to the end of a growing sorted list in this approach. It is one of the most basic sorting algorithms available. The selection sort is well-known for its ease of use. In some instances, it outperforms more sophisticated algorithms.
 
 Time complexity is **Ο(n^2)**, where n is the number of items.
 
@@ -26,31 +26,4 @@ Let us assume an array A\[10]={45,20,40,05,15,25,50,35,30,10}. We have to sort t
 
 ![Selection-sort-example-MSA Technosoft](https://msatechnosoft.in/blog/wp-content/uploads/2018/09/Selection-sort-example-MSA-Technosoft.png)
 
-In this algorithm we have to find the minimum value in the list first. Then, Swap it with the value in the first position. After that, Start from the second position and repeat the steps above for remainder of the list.
-
-```
-// function to look for smallest element in the given subarray
-int indexOfMinimum(int arr[], int startIndex, int n)
-{
-    int minValue = arr[startIndex];
-    int minIndex = startIndex;
-    for(int i = minIndex + 1; i < n; i++) 
-    {
-        if(arr[i] < minValue)
-        {
-            minIndex = i;
-            minValue = arr[i];
-        }
-    }
-    return minIndex;
-}
-
-void selectionSort(int arr[], int n)
-{
-    for(int i = 0; i < n; i++)
-    {
-        int index = indexOfMinimum(arr, i, n);
-        swap(arr, i, index);
-    }
-}
-```
+In this algorithm we have to find the minimum value in the list first. Then, Swap it with the value in the first position. After that, Start from the second position and repeat the steps above for the remainder of the list.

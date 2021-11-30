@@ -11,6 +11,7 @@
 * [Introduction-Sorting](searching-and-sorting/introduction-sorting.md)
 * [Bubble Sort](searching-and-sorting/bubble-sort.md)
 * [Selection Sort](searching-and-sorting/selection-sort.md)
+* [Counting Sort](searching-and-sorting/counting-sort.md)
 
 ## 💸 Greedy Method
 
@@ -56,3 +57,7 @@
 * [IsPrime | School Method](number-theory/isprime-or-school-method.md)
 * [IsPrime | Fermat's Little Theorem](number-theory/isprime-or-fermats-little-theorem.md)
 * [IsPrime | Miller-Rabin Method](number-theory/isprime-or-miller-rabin-method.md)
+
+***
+
+* [References](references.md)

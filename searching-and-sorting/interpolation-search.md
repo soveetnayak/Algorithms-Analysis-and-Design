@@ -20,7 +20,9 @@ Step 6: If data is smaller than middle, search in lower sub-list.
 Step 7: Repeat until match.
 ```
 
-To divide the list into two sub lists, we use **mid = Lo + ((Hi – Lo) / (A\[Hi] – A\[Lo])) \* (X – A\[Lo])**
+To divide the list into two sub lists, we use&#x20;
+
+**mid = Lo + ((Hi – Lo) / (A\[Hi] – A\[Lo])) \* (X – A\[Lo])**
 
 Where,
 

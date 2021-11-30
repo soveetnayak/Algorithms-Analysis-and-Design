@@ -2,9 +2,9 @@
 
 
 
-Bubble sort is the simplest sorting algorithm. It is based on comparison where each adjacent pair of element is compared and swapped if they are not in order. It works by repeatedly stepping through the list to be sorted, comparing two items at a time and swapping them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which means the list is sorted. T
+The simplest sorting algorithm is bubble sort. It works by comparing each adjacent pair of elements and swapping them if they are out of order. It works by walking through the list to be sorted many times, comparing two items at a time and exchanging them if they are out of order. The process is continued until no swaps are required, indicating that the list is sorted.
 
-ime complexity of this algorithm are of **Ο(n^2) **where n is the number of items.
+Time complexity of this algorithm are of **Ο(n^2)** where n is the number of items.
 
 **Algorithm**
 
@@ -32,27 +32,8 @@ if swap flag is false, break. The list is sorted.
 
 Example,
 
-Suppose we have a list of array of 5 elements A\[5]={40,50,30,20,10}. We have to sort this array using bubble sort algorithm.
+Suppose we have a list of array of 5 elements **A\[5]={40,50,30,20,10}**. We have to sort this array using bubble sort algorithm.
 
 ![Bubble-sort-example-MSA Technosoft](https://msatechnosoft.in/blog/wp-content/uploads/2018/09/Bubble-sort-example-MSA-Technosoft.png)
 
 We observe in algorithm that Bubble Sort compares each pair of array element unless the whole array is completely sorted in an ascending order. After every iteration the highest values settles down at the end of the array. Hence, the next iteration need not include already sorted elements.
-
-```
-void bubbleSort(int arr[], int n)
-{
-    int i, j, temp;
-    for(i = 0; i < n; i++)
-    {
-        for(j = 0; j < n-i-1; j++)
-        {
-            if( arr[j] > arr[j+1])
-            {
-// swap the elements
-                temp = arr[j];
-                arr[j] = arr[j+1];
-                arr[j+1] = temp;
-            }
-        }
-}
-```

@@ -45,7 +45,7 @@ while there are untried tours
 }
 ```
 
-**Backtracking **works in an incremental way to attack problems. Typically, we start from an empty solution vector and one by one add items (Meaning of item varies from problem to problem. In the context of Knight’s tour problem, an item is a Knight’s move). When we add an item, we check if adding the current item violates the problem constraint, if it does then we remove the item and try other alternatives. If none of the alternatives works out then we go to the previous stage and remove the item added in the previous stage. If we reach the initial stage back then we say that no solution exists. If adding an item doesn’t violate constraints then we recursively add items one by one. If the solution vector becomes complete then we print the solution.
+**Backtracking** works in an incremental way to attack problems. Typically, we start from an empty solution vector and one by one add items (Meaning of item varies from problem to problem. In the context of Knight’s tour problem, an item is a Knight’s move). When we add an item, we check if adding the current item violates the problem constraint, if it does then we remove the item and try other alternatives. If none of the alternatives works out then we go to the previous stage and remove the item added in the previous stage. If we reach the initial stage back then we say that no solution exists. If adding an item doesn’t violate constraints then we recursively add items one by one. If the solution vector becomes complete then we print the solution.
 
 **Backtracking Algorithm for Knight’s tour**&#x20;
 
@@ -54,13 +54,16 @@ Following is the Backtracking algorithm for Knight’s tour problem.&#x20;
 ```
 If all squares are visited 
     print the solution
+    
 Else
    a) Add one of the next moves to solution vector and recursively 
    check if this move leads to a solution. (A Knight can make maximum 
    eight moves. We choose one of the 8 moves in this step).
+   
    b) If the move chosen in the above step doesn't lead to a solution
    then remove this move from the solution vector and try other 
    alternative moves.
+   
    c) If none of the alternatives work then return false (Returning false 
    will remove the previously added item in recursion and if false is 
    returned by the initial call of recursion then "no solution exists" )

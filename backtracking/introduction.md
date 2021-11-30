@@ -2,15 +2,11 @@
 
 A backtracking algorithm is a problem-solving algorithm that uses a **brute force approach** for finding the desired output.
 
-The Brute force approach tries out all the possible solutions and chooses the desired/best solutions.
+The brute force strategy tests all alternative solutions before selecting the desired/best one. Backtracking implies that if the present answer isn't working, you should go back and try something else.
 
-The term backtracking suggests that if the current solution is not suitable, then backtrack and try other solutions. Thus, recursion is used in this approach.
+&#x20;As a result, recursion is employed in this method. When there are several solutions to a problem, this method is utilised to solve it.
 
-This approach is used to solve problems that have multiple solutions. If you want an optimal solution, you must go for dynamic programming. &#x20;
-
-***
-
-### State Space Tree <a href="tree" id="tree"></a>
+### State Space Tree <a href="#tree" id="tree"></a>
 
 A space state tree is a tree representing all the possible states (solution or nonsolution) of the problem from the root as an initial state to the leaf as a terminal state.
 
@@ -18,7 +14,7 @@ A space state tree is a tree representing all the possible states (solution or n
 
 ***
 
-### Backtracking Algorithm <a href="algorithm" id="algorithm"></a>
+### Backtracking Algorithm <a href="#algorithm" id="algorithm"></a>
 
 ```
 Backtrack(x)
@@ -31,7 +27,7 @@ Backtrack(x)
 
 ***
 
-### Example Backtracking Approach <a href="example" id="example"></a>
+### Example Backtracking Approach <a href="#example" id="example"></a>
 
 Problem: You want to find all the possible ways of arranging 2 boys and 1 girl on 3 benches. Constraint: Girl should not be on the middle bench.
 

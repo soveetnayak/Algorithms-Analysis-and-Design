@@ -7,11 +7,9 @@ A graph data structure is a collection of nodes that have data and are connected
 More precisely, a graph is a data structure (V, E) that consists of
 
 * A collection of vertices V
-* A collection of edges E, represented as ordered pairs of vertices (u,v)
+* A collection of edges E, represented as ordered pairs of vertices (u,v)\\
 
-
-
-### Graph Terminology <a href="term" id="term"></a>
+### Graph Terminology <a href="#term" id="term"></a>
 
 * **Adjacency**: A vertex is said to be adjacent to another vertex if there is an edge connecting them. Vertices 2 and 3 are not adjacent because there is no edge between them.
 * **Path**: A sequence of edges that allows you to go from vertex A to vertex B is called a path. 0-1, 1-2 and 0-2 are paths from vertex 0 to vertex 2.

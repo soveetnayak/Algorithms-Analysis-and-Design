@@ -1,6 +1,8 @@
 # Introduction-Search
 
-Sorting and Searching is one of the most vital topic in [DSA](https://msatechnosoft.in/blog/tech-blogs/data-structure). Storing and retrieving information is one of the most common application of computers now-a-days. According to time the amount of data and information stored and accessed via computer has turned to huge [databases](https://msatechnosoft.in/blog/tech-blogs/ado-net-architecture-data-provider-set). So many techniques and algorithms have been developed to efficiently maintain and process information in databases.
+One of the most important topics in DSA is sorting and searching. One of the most prevalent uses of computers nowadays is for storing and retrieving data.&#x20;
+
+The quantity of data and information kept and accessed by computers has grown over time, resulting in massive databases. To properly manage and handle information in databases, a plethora of approaches and algorithms have been created.
 
 
 
@@ -16,9 +18,5 @@ Sorting and Searching is one of the most vital topic in [DSA](https://msatechnos
 
 {% content-ref url="interpolation-search.md" %}
 [interpolation-search.md](interpolation-search.md)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}
 

@@ -2,7 +2,7 @@
 
 
 
-Linear Search Algorithm is the simplest search algorithm. In this search algorithm, a sequential search is made over all the items one by one to search for the targeted item. Each item is checked in sequence until the match is found. If the match is found, a particular item is returned otherwise the search continues till the end.
+The most basic search algorithm is the linear search method. To find the targeted item, this search algorithm performs a sequential search over all of the items one by one. Each item is examined in turn until a match is discovered. If a match is discovered, a specific item is returned; otherwise, the search continues until it reaches its conclusion.
 
 **Algorithm**
 
@@ -86,4 +86,4 @@ Maintain the current maximum square distance in `max_square`.
 
 Since we're iterating through all pairs of points, we start the j loop from $$j=i+1$$ so that point i  and point j are never the same point.&#x20;
 
-Furthermore, it makes it so that each pair is only counted once. In this problem, it doesn't matter whether we double-count pairs or whether we allow i and j to be the same point, but in other problems where we're counting something rather than looking at the maximum, it's important to be careful that we don't overcount.
+Additionally, it ensures that each pair is only tallied once. It doesn't matter if we double-count pairs or allow I and j to be the same point in this issue; but, in other situations when we're counting something rather than looking at the maximum, it's critical to avoid overcounting.

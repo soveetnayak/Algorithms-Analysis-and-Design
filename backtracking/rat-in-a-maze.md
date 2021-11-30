@@ -2,7 +2,7 @@
 
 A Maze is given as N\*N binary matrix of blocks where source block is the upper left most block i.e., maze\[0]\[0] and destination block is lower rightmost block i.e., maze\[N-1]\[N-1]. A rat starts from source and has to reach the destination. The rat can move only in two directions: forward and down.&#x20;
 
-In the maze matrix, 0 means the block is a dead end and 1 means the block can be used in the path from source to destination. Note that this is a simple version of the typical Maze problem. For example, a more complex version can be that the rat can move in 4 directions and a more complex version can be with a limited number of moves.
+In the maze matrix, 0 means the block is a dead end and 1 means the block can be used in the path from source to destination.&#x20;
 
 **Following is an example maze.** &#x20;
 
@@ -35,11 +35,11 @@ Following is the solution matrix (output of program) for the above input matrix.
 All entries in solution path are marked as 1.
 ```
 
-**Backtracking Algorithm:** Backtracking is an algorithmic-technique for solving problems recursively by trying to build a solution incrementally. Solving one piece at a time, and removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the time elapsed till reaching any level of the search tree) is the process of backtracking.
+Solving one piece at a time, and removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the time elapsed till reaching any level of the search tree) is the process of backtracking.
 
-**Approach: **Form a recursive function, which will follow a path and check if the path reaches the destination or not. If the path does not reach the destination then backtrack and try other paths.&#x20;
+**Approach:** Form a recursive function, which will follow a path and check if the path reaches the destination or not. If the path does not reach the destination then backtrack and try other paths.&#x20;
 
-**Algorithm: **&#x20;
+**Algorithm:**&#x20;
 
 1. Create a solution matrix, initially filled with 0’s.
 2. Create a recursive function, which takes initial matrix, output matrix and position of rat (i, j).
@@ -47,8 +47,3 @@ All entries in solution path are marked as 1.
 4. Mark the position output\[i]\[j] as 1 and check if the current position is destination or not. If destination is reached print the output matrix and return.
 5. Recursively call for position (i+1, j) and (i, j+1).
 6. Unmark position (i, j), i.e output\[i]\[j] = 0.
-
-
-
-| <p><br></p> |
-| ----------- |
