@@ -33,7 +33,16 @@
 * [Introduction](divide-and-conquer/introduction.md)
 * [Strassen's Matrix multiplication](divide-and-conquer/strassens-matrix-multiplication.md)
 * [Karatsuba algorithm](divide-and-conquer/karatsuba-algorithm.md)
+* [Tower of Hanoi](divide-and-conquer/tower-of-hanoi.md)
 * [Closest Pair](divide-and-conquer/closest-pair.md)
+
+## 💣 Dynamic Programming
+
+* [Introduction](dynamic-programming/introduction.md)
+* [Longest Common Subsequence](dynamic-programming/longest-common-subsequence.md)
+* [Floyd-Warshall Algorithm](dynamic-programming/floyd-warshall-algorithm.md)
+* [0-1 Knapsack problem](dynamic-programming/0-1-knapsack-problem.md)
+* [Dice Throw](dynamic-programming/dice-throw.md)
 
 ## 📈 Graph
 
@@ -43,14 +52,6 @@
 * [BFS](graph/bfs.md)
 * [Flood Fill Algorithm](graph/flood-fill-algorithm.md)
 * [Minesweeper Lite](graph/minesweeper-lite.md)
-
-## 💣 Dynamic Programming
-
-* [Introduction](dynamic-programming/introduction.md)
-* [Longest Common Subsequence](dynamic-programming/longest-common-subsequence.md)
-* [Floyd-Warshall Algorithm](dynamic-programming/floyd-warshall-algorithm.md)
-* [0-1 Knapsack problem](dynamic-programming/0-1-knapsack-problem.md)
-* [Dice Throw](dynamic-programming/dice-throw.md)
 
 ## 🔢 Number Theory
 

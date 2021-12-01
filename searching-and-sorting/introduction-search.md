@@ -4,7 +4,7 @@ One of the most important topics in DSA is sorting and searching. One of the mos
 
 The quantity of data and information kept and accessed by computers has grown over time, resulting in massive databases. To properly manage and handle information in databases, a plethora of approaches and algorithms have been created.
 
-
+![](../.gitbook/assets/searching.gif)
 
 **The most common searching algorithms are:**
 
